@@ -11,6 +11,6 @@ for student_id, detail in student_data.items():
     if unique_key not in seen_keys:
         seen_keys.append(unique_key)
         result[student_id] = detail
-        for k, v in result.items():
-            print(k, ":", v)
+for k, v in result.items():
+    print(k, ":", v)
 
